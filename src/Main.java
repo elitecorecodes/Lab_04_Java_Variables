@@ -1,13 +1,58 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+class Main {
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+
+    public static void main(String[] args) {
+
+        // Declare variables
+        int intOperandA = 2;
+        int intOperandB = 7;
+        int intSum = 11;
+        int intProduct = 21;
+        int intDifference = 50;
+        int intQuotient = 10;
+        int intModulo  = 35;
+
+        // Declare double variables
+        double doubleOperandA = 2.50;
+        double doubleOperandB = 1.25;
+        double doubleSum = 5.25;
+        double doubleProduct = 14.50;
+        double doubleDifference = 10.75;
+        double doubleQuotient = 25.50;
+
+
+        // Integer arithmetic operations
+        intSum = intOperandA + intOperandB;
+        System.out.println("The sum using ints of " + intOperandA + " " + intOperandB + " is " + intSum);
+
+        intProduct = intOperandA * intOperandB;
+        System.out.println("The product using ints of " + intOperandA + " " + intOperandB + " is " + intProduct);
+
+        intDifference = intOperandA - intOperandB;
+        System.out.println("The difference using ints of " + intOperandA + " " + intOperandB + " is " + intDifference);
+
+        intQuotient = intOperandA / intOperandB;
+        System.out.println("The quotient using ints of " + intOperandA + " " + intOperandB + " is " + intQuotient);
+
+        intModulo = intOperandA % intOperandB;
+        System.out.println("The modulo using ints of " + intOperandA + " " + intOperandB + " is " + intModulo);
+
+        // Double arithmetic operations
+        doubleSum = doubleOperandA + doubleOperandB;
+        System.out.println("The sum using double of " + doubleOperandA + " " + doubleOperandB + " is " + doubleSum);
+
+        doubleProduct = doubleOperandA * doubleOperandB;
+        System.out.println("The product using double of " + doubleOperandA + " " + doubleOperandB + " is " + doubleProduct);
+
+        doubleDifference = doubleOperandA - doubleOperandB;
+        System.out.println("The difference using double of " + doubleOperandA + " " + doubleOperandB + " is " + doubleDifference);
+
+        doubleQuotient = doubleOperandA / doubleOperandB;
+        System.out.println("The quotient using double of " + doubleOperandA + " " + doubleOperandB + " is " + doubleQuotient);
+
+
+
+
     }
+
 }
