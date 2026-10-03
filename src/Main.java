@@ -37,7 +37,9 @@ class Main {
         intModulo = intOperandA % intOperandB;
         System.out.println("The modulo using ints of " + intOperandA + " " + intOperandB + " is " + intModulo);
 
-        // Double arithmetic operations
+        // Double
+        //
+        // arithmetic operations
         doubleSum = doubleOperandA + doubleOperandB;
         System.out.println("The sum using double of " + doubleOperandA + " " + doubleOperandB + " is " + doubleSum);
 
